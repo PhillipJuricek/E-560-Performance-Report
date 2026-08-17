@@ -1,5 +1,5 @@
 # E-560 M-Exchanger Performance Report
-E-560 Report Demo.mp4
+
 A Streamlit app that turns two source files into an exchanger fleet performance
 report:
 
