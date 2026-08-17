@@ -1,4 +1,86 @@
-# E-560 M-Exchanger Performance Report
+# E-560 Heat Exchanger Performance Report
+
+A Python/Streamlit engineering dashboard developed to evaluate the thermal and hydraulic performance of six industrial heat exchangers using SCADA process data and operator maintenance records.
+
+## Overview
+
+The E-560 exchanger group is a critical part of the production process. Exchanger performance changes over time due to factors such as fouling, flow distribution, and maintenance history.
+
+This project analyzes historical process data to:
+
+- Monitor relative thermal and hydraulic exchanger performance
+- Identify exchangers showing declining performance
+- Compare current exchanger cycles against previous operating cycles
+- Track performance degradation between maintenance events
+- Provide operators and engineers with a clearer view of exchanger health
+
+## Dashboard
+
+The project includes an interactive Streamlit dashboard providing fleet-wide and individual exchanger performance analysis.
+
+<!-- Add screenshot or demo GIF here -->
+
+![E-560 Performance Dashboard](path/to/dashboard-screenshot.png)
+
+## Key Analysis
+
+The analysis combines SCADA process data with operator maintenance records.
+
+The data pipeline includes:
+
+- Time-series preprocessing
+- Rolling-window analysis
+- Exchanger operating-state detection
+- Maintenance-cycle identification
+- Fleet-relative performance metrics
+- Thermal and hydraulic performance ranking
+- Cycle-to-cycle performance comparison
+
+### Performance Metrics
+
+The dashboard evaluates exchanger performance using relative thermal and hydraulic metrics, allowing exchangers to be compared against the rest of the operating fleet rather than relying on absolute measurements alone.
+
+This helps identify equipment that may be degrading even when its absolute measurements remain within normal operating ranges.
+
+## Data Sources
+
+The analysis uses:
+
+- SCADA process data exported to CSV
+- Operator maintenance records from Excel
+- Exchanger operating-state information
+- Historical maintenance-cycle data
+
+No proprietary production data or personally identifiable information is included in this repository.
+
+## Technical Implementation
+
+### Technologies
+
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Streamlit
+- Excel
+- Git/GitHub
+
+### Project Structure
+
+```text
+E-560-Performance-Report/
+├── app.py
+├── analysis/
+│   ├── preprocessing.py
+│   ├── exchanger_state.py
+│   ├── metrics.py
+│   ├── cycle_analysis.py
+│   └── ranking.py
+├── visualization/
+├── reporting/
+├── config.py
+└── README.md
 <img width="2680" height="1244" alt="image" src="https://github.com/user-attachments/assets/2c40c5d6-51cf-4433-8d75-956e9f1cc750" />
 <img width="1460" height="481" alt="image" src="https://github.com/user-attachments/assets/df6fda19-4337-402c-a1a5-7f980c424568" />
 <img width="1460" height="481" alt="image" src="https://github.com/user-attachments/assets/fab54197-65e8-4cde-8506-06273aed73cf" />
