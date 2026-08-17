@@ -1,4 +1,12 @@
 # E-560 M-Exchanger Performance Report
+<img width="2680" height="1244" alt="image" src="https://github.com/user-attachments/assets/2c40c5d6-51cf-4433-8d75-956e9f1cc750" />
+<img width="1460" height="481" alt="image" src="https://github.com/user-attachments/assets/df6fda19-4337-402c-a1a5-7f980c424568" />
+<img width="1460" height="481" alt="image" src="https://github.com/user-attachments/assets/fab54197-65e8-4cde-8506-06273aed73cf" />
+<img width="1460" height="477" alt="image" src="https://github.com/user-attachments/assets/4afff76c-124d-473d-8be6-cf521adeb1aa" />
+<img width="2710" height="1398" alt="image" src="https://github.com/user-attachments/assets/b9f3a043-ce44-4303-9473-d5644871e8ac" />
+<img width="2678" height="1408" alt="image" src="https://github.com/user-attachments/assets/99709a80-2ff4-480e-a447-7fb88d3ea48c" />
+<img width="2658" height="562" alt="image" src="https://github.com/user-attachments/assets/3332fd08-f4dd-40ef-983e-2f1c4f5ffc2e" />
+
 
 A Streamlit app that turns two source files into an exchanger fleet performance
 report:
